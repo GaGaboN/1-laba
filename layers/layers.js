@@ -27,7 +27,7 @@ var lyr_lab1_1 = new ol.layer.Vector({
                 title: '<img src="styles/legend/lab1_1.png" /> lab 1'
             });
 var format__2 = new ol.format.GeoJSON();
-var features__2 = format__2.readFeatures(json__2, 
+var features__2 = format__2.readFeatures(json_2, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
 var jsonSource__2 = new ol.source.Vector({
     attributions: ' ',
