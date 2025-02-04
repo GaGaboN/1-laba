@@ -42,7 +42,7 @@ var lyr__2 = new ol.layer.Vector({
                 title: '<img src="styles/legend/_2.png" /> Последняя работа — Дороги'
             });
 var format__3 = new ol.format.GeoJSON();
-var features__3 = format__3.readFeatures(json__3, 
+var features__3 = format__3.readFeatures(json_3, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
 var jsonSource__3 = new ol.source.Vector({
     attributions: ' ',
